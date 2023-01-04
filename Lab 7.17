@@ -1,0 +1,8 @@
+letter = str(input())
+
+word = ["Done", "done", "d"]
+
+
+while letter not in word:
+    print(letter[::-1])
+    letter = str(input())
