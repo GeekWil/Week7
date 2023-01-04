@@ -1,0 +1,23 @@
+word = input()
+password = ''
+
+
+for letter in word:
+    if letter == "i":
+        password += "1"
+    
+    elif letter == "a":
+        password += "@"
+    
+    elif letter == "m":
+        password += "M"
+    
+    elif letter == "B":
+        password += "8"
+    
+    elif letter == "s":
+        password += "$"
+    
+    else:
+        password += letter
+print(password + "!")
