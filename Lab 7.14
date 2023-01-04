@@ -1,0 +1,11 @@
+user_text = input()
+
+out = 0
+
+for text in user_text:
+    if text.isalpha() or text == "?":
+        out += 1
+    else:
+        continue
+    
+print(out)
